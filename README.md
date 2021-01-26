@@ -4,7 +4,7 @@ Computer graphics from scrath.
 
 1# Resume
 
-Points, Vectors and Normals
+##Points, Vectors and Normals
 
   1 - Points represents a position;
   2 - Vectors represents a direction;
@@ -20,9 +20,13 @@ The length o the Vector can be set to 1, in which case we say that it is normali
  
 2# Resume
 
+##Coordinate Systems
+
 Coordinates system (x, y and z).
 
 3# Resume
+
+##Math Operations on Points and Vectors
 
 ||V|| = sqrt(x * x + y * y + z * z) length, norm or magnitude (Is like h2 = c2 + c2, but 3d space)
 || indicates the length of vector
@@ -63,6 +67,15 @@ Vector/Point Addition and Subtraction
 * = x1 * x2, y1 * y2, z1 * z2
 
 4# Resume
+
+##Matrices
+
+M = 1 2 3
+    4 5 6
+    
+Example: 2 rows and 3 columns [2x3]
+
+<b>Make transformations</b>
 
 
 
