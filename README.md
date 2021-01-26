@@ -56,6 +56,16 @@ Cy = Az * Bx - Ax * Bz
 Cz = Ax * By - Ay * Bx
 
 
+Vector/Point Addition and Subtraction
+
++ = x1 + x2, y1 + y2, z1 + z2
+- = x1 - x2, y1 - y2, z1 - z2
+* = x1 * x2, y1 * y2, z1 * z2
+
+4# Resume
+
+
+
 
   
 
