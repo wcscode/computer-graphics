@@ -34,6 +34,29 @@ The mathematical notation is:
 ^V = V / ||V|| 
 
 Normalized vector = vector / length of vector
+
+Dot Product 
+
+The dot product or scalar product requires two vectors A and B  and can be seen as the projection of one vector onto the other.
+
+A.B = A.x * B.x + A.y * B.y + A.z * B.z (This is quite similar to the way we compute the length of a vector). The result of this operation relates to the cosine of the angle.
+
+    B
+    ^
+C <-|=> A, D  For instance: A * B = 0 (vectors are perpendicular to each  other);  A * C = -1 (vectors are pointing in opposite directions); A * D = 1 (vector are pointing in the exact same direction).
+
+Cross Product
+
+The cross prodcuct is aldo an operation on two vectors, but to the difference of the dot product which returns a number, the cross product returns a perpendicular vector to the other two.
+
+C = A X B
+
+Cx = Ay * Bz - Az * By
+Cy = Az * Bx - Ax * Bz
+Cz = Ax * By - Ay * Bx
+
+
+
   
 
 
