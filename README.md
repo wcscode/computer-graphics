@@ -75,7 +75,12 @@ M = 1 2 3
     
 Example: 2 rows and 3 columns [2x3]
 
+[3x3] and [4x4] matrices are most commons in CG.
+
 <b>Make transformations</b>
+
+If two matrices can be written as m x p and p x n they can be multiplied (row x column). Multiply row by column.
+Matrices can be multiplied only if the matrix on the left side of the multiplication has a number of columns that is equal to the number of rows of the matric which is on the right. The order to multiply matrices matter.
 
 
 
