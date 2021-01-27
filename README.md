@@ -77,8 +77,37 @@ Example: 2 rows and 3 columns [2x3]
 If two matrices can be written as m x p and p x n they can be multiplied (row x column). Multiply row by column.
 Matrices can be multiplied only if the matrix on the left side of the multiplication has a number of columns that is equal to the number of rows of the matric which is on the right. The order to multiply matrices matter.
 
+m x p matrix multiplied by a p x n matrix, gives a m x n matrix.
 
 <h2>5 How Does Matrix Work: Part 1</h2>
+
+<b>conventions:</b> Different author/programs use different conventions!
+
+<b>POint-Matrix Multiplication</b>
+
+P = [x y x]
+
+[x y x ] *  c00 c01 c02 c03
+            c10 c11 c12 c13
+            c20 c21 c22 c23
+            
+Xtransformed = x * c00 + x * c10 + z * c20           
+Ytransformed = x * c01 + x * c11 + z * c21
+Ztransformed = x * c02 + x * c12 + z * c22
+
+<b>The Identity Matrix</b>
+
+The identity matrix or unit matrix is a square matrix whose coefficients are all 0 excepted the coefficients along the diagonal which are set to 1:
+
+1 0 0
+0 1 0
+0 0 1
+
+The result of P multiplied by the identity matrix is P.
+
+<b>The Scaling Matrix</b>
+
+
 
   
 
