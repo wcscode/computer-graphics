@@ -136,6 +136,7 @@ Rz(a) = cos(a)  sin(a) 0
         -sin(a) cos(a) 0
         0       0      1
         
-        
+<b>Affine Transformation</b>
 
+An affine transformation, is a transformation that preserves straight lines. The other type of transformation are called projective transformations (perspective projection is a projective transformation)
 
