@@ -123,8 +123,19 @@ RotationZ = 0 1 0
             1 0 0
             0 0 1  
 
+
+<b>This don't work in clockwise</b>
+
 Rz(a) = cos(a) sin(a) 0   0 1 0
         sin(a) cos(a) 0 = 1 0 0
         0      0      1   0 0 1 
+        
+<b>This work in clockwise</b>
+
+Rz(a) = cos(a)  sin(a) 0
+        -sin(a) cos(a) 0
+        0       0      1
+        
+        
 
 
