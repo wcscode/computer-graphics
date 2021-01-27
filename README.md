@@ -107,8 +107,24 @@ The result of P multiplied by the identity matrix is P.
 
 <b>The Scaling Matrix</b>
 
+Sx 0 0
+0 Sy 0
+0 0 Sz
 
+XScaling = x * Sx + x * c10 + z * c20           
+YScaling = x * c01 + x * Sy + z * c21
+ZScaling = x * c02 + x * c12 + z * Sz
 
-  
+<b>The Rotation Matrix</b>
+
+Rotaton 90º P = (1, 0, 0) to Pt = (0, 1, 0) 
+
+RotationZ = 0 1 0
+            1 0 0
+            0 0 1  
+
+Rz(a) = cos(a) sin(a) 0   0 1 0
+        sin(a) cos(a) 0 = 1 0 0
+        0      0      1   0 0 1 
 
 
