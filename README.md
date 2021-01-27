@@ -2,9 +2,7 @@
 
 Computer graphics from scrath.
 
-1# Resume
-
-##Points, Vectors and Normals
+<h2>1 Points, Vectors and Normals</h2>
 
   1 - Points represents a position;
   2 - Vectors represents a direction;
@@ -17,16 +15,12 @@ Points and vectors can be transformed using linear transformations.
   2 - Rotation for Vector.
   
 The length o the Vector can be set to 1, in which case we say that it is normalised.
- 
-2# Resume
 
-##Coordinate Systems
+<h2>2 Coordinate Systems</h2>
 
 Coordinates system (x, y and z).
 
-3# Resume
-
-##Math Operations on Points and Vectors
+<h2>3 Math Operations on Points and Vectors</h2>
 
 ||V|| = sqrt(x * x + y * y + z * z) length, norm or magnitude (Is like h2 = c2 + c2, but 3d space)
 || indicates the length of vector
@@ -62,13 +56,14 @@ Cz = Ax * By - Ay * Bx
 
 Vector/Point Addition and Subtraction
 
+<code>
 + = x1 + x2, y1 + y2, z1 + z2
 - = x1 - x2, y1 - y2, z1 - z2
 * = x1 * x2, y1 * y2, z1 * z2
+</code>  
 
-4# Resume
 
-##Matrices
+<h2>4 Matrices</h2>
 
 M = 1 2 3
     4 5 6
@@ -83,7 +78,7 @@ If two matrices can be written as m x p and p x n they can be multiplied (row x 
 Matrices can be multiplied only if the matrix on the left side of the multiplication has a number of columns that is equal to the number of rows of the matric which is on the right. The order to multiply matrices matter.
 
 
-
+<h2>5 How Does Matrix Work: Part 1</h2>
 
   
 
