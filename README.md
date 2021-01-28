@@ -153,4 +153,15 @@ P′.z=P.x∗M02+P.y∗M12+P.z∗M22+1∗M32
 
 <b>The Trick About Homogeneous Points</b>
 
+We need to normalize w' back to 1 by dividing it by itself which requires to divide the other coordinates (x', y' and z') by w' as well.
+
+P'.x = P.x * M00 + P.y * M10 + P.z * M20 + M30; 
+P'.y = P.x * M01 + P.y * M11 + P.z * M21 + M31; 
+P'.z = P.x * M02 + P.y * M12 + P.z * M22 + M32; 
+w'   = P.x * M03 + P.y * M13 + P.z * M23 + M33; 
+if (w' != 1 && w' != 0) { 
+    P'.x /= w', P'.y /= w', P'.z /= w'; 
+} 
+
+
 
