@@ -140,3 +140,17 @@ Rz(a) = cos(a)  sin(a) 0
 
 An affine transformation, is a transformation that preserves straight lines. The other type of transformation are called projective transformations (perspective projection is a projective transformation). Perspective projection do not necessarily preserve parallelism between lines. 
 
+<h2>Transforming Points and Vectors</h2>
+
+
+Add one coefficient with value 1 in matrix one [x, y, z, 1] (Homogeneous point) and add one row in second matrix [4x3] now.
+
+4x4 matrix? The fourth columns plays a role in perspective projection and for some other type of transformations that are not very common
+
+P′.x=P.x∗M00+P.y∗M10+P.z∗M20+1∗M30
+P′.y=P.x∗M01+P.y∗M11+P.z∗M21+1∗M31
+P′.z=P.x∗M02+P.y∗M12+P.z∗M22+1∗M32
+
+<b>The Trick About Homogeneous Points</b>
+
+
