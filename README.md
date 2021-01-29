@@ -163,5 +163,14 @@ if (w' != 1 && w' != 0) {
     P'.x /= w', P'.y /= w', P'.z /= w'; 
 } 
 
+<b>Transforming Vectors</b>
+
+V'.x = V.x * M00 + V.y * M10 + V.z * M20; 
+V'.y = V.x * M01 + V.y * M11 + V.z * M21; 
+V'.z = V.x * M02 + V.y * M12 + V.z * M22; 
+
+
+
+
 
 
